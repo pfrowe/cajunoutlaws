@@ -1,0 +1,182 @@
+@font-face {
+  font-family: Carnevalee Freakshow;
+  src: url(../fonts/carnevalee.woff);
+}
+@font-face {
+  font-family: Hobo Std Medium;
+  src: url(../fonts/hobo.woff);
+}
+@font-face {
+  font-family: Woodcut;
+  src: url(../fonts/woodcut.woff);
+}
+.clear {
+  clear: both;
+}
+.form-group .glyphicon-asterisk {
+  color: black;
+  text-shadow: -1px -1px 1px #331009, -1px 0px 1px #331009, -1px 1px 1px #331009, 0px 1px 1px #cc3f23,
+    1px 1px 1px #cc3f23, 1px 0px 1px #cc3f23, 1px -1px 1px #331009, 0px -1px 1px #331009;
+}
+.hero-unit .carousel {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar {
+  min-height: 12rem;
+}
+.navbar-inverse .navbar-brand {
+  color: #ea2e36;
+}
+.navbar img.logo {
+  left: 50%;
+  max-height: 10rem;
+  position: absolute;
+  top: 0.5em;
+  transform: translate(-50%, 0);
+}
+.navbar-brand {
+  float: left;
+  font-size: 5rem;
+  line-height: 1.15em;
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: #ea2e36;
+  text-shadow: 1px -1px 3px #ea2e36, 1px 0px 3px #ea2e36, 1px 1px 3px #ea2e36, 0px 1px 3px #ea2e36,
+    -1px 1px 3px #ea2e36, -1px 0px 3px #ea2e36, -1px -1px 3px #ea2e36, 0px -1px 3px #ea2e36;
+}
+.navbar-brand .western {
+  color: #ea2e36;
+  font-family: Carnevalee Freakshow, cursive;
+  text-shadow: 1px -1px 3px #e5b74d, 1px 0px 3px #e5b74d, 1px 1px 3px #e5b74d, 0px 1px 3px #e5b74d,
+    -1px 1px 3px #e5b74d, -1px 0px 3px #e5b74d, -1px -1px 3px #e5b74d, 0px -1px 3px #e5b74d;
+  white-space: nowrap;
+}
+.navbar-brand .silver {
+  color: silver;
+  font-family: Hobo Std Medium, sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.navbar-inverse {
+  background-color: hsla(0, 0%, 15%, 0.9);
+}
+.navbar-inverse .nav > li > a {
+  color: #ea2e36;
+  font-family: Carnevalee Freakshow, cursive;
+  font-size: 2.5rem;
+  text-shadow: 1px -1px 1px #e5b74d, 1px 0px 1px #e5b74d, 1px 1px 1px #e5b74d, 0px 1px 1px #e5b74d,
+    -1px 1px 1px #e5b74d, -1px 0px 1px #e5b74d, -1px -1px 1px #e5b74d, 0px -1px 1px #e5b74d;
+}
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:hover {
+  text-shadow: 1px -1px 2px #ea2e36, 1px 0px 2px #ea2e36, 1px 1px 2px #ea2e36, 0px 1px 2px #ea2e36,
+    -1px 1px 2px #ea2e36, -1px 0px 2px #ea2e36, -1px -1px 2px #ea2e36, 0px -1px 2px #ea2e36;
+}
+.navbar-inverse .nav > .active > a {
+  color: #ea2e36;
+  text-shadow: 1px -1px 2px #eeeeee, 1px 0px 2px #eeeeee, 1px 1px 2px #eeeeee, 0px 1px 2px #eeeeee,
+    -1px 1px 2px #eeeeee, -1px 0px 2px #eeeeee, -1px -1px 2px #eeeeee, 0px -1px 2px #eeeeee;
+}
+.well {
+  background: hsla(10, 43%, 3%, 0.9);
+  border: 1px solid hsl(44, 75%, 75%);
+  border-radius: 4px;
+}
+body {
+  background-attachment: fixed;
+  background-color: #682012;
+  background-image: url(../img/crawfish-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ecd187;
+  padding-top: 12.5rem;
+}
+dl dt {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+dl dd {
+  padding-left: 2em;
+}
+h1,
+h2,
+h3 {
+  font-family: Woodcut;
+  font-weight: normal;
+}
+img.lic-plate {
+  float: left;
+  height: auto;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  max-width: 45%
+}
+table .pull-left {
+  padding-right: 1em;
+}
+table.pull-right {
+  padding-left: 1em;
+}
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-right {
+    position: absolute;
+    right: 1em;
+    bottom: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar-brand {
+    clear: both;
+    display: block;
+    float: none;
+    max-width: 100%;
+    text-align: center;
+  }
+  .navbar-brand .western {
+    font-size: 4vw;
+  }
+  .navbar-brand .silver {
+    font-size: 2.75vw;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 18rem;
+  }
+  .navbar {
+    min-height: 15rem;
+  }
+  .navbar img.logo {
+    display: block;
+    height: auto;
+    max-width: 60%;
+    position: relative;
+    z-index: -1;
+  }
+  .navbar-brand {
+    clear: both;
+    display: block;
+    float: none;
+    height: 1.25em;
+    margin-top: -0.5em;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-brand .western {
+    font-size: 8vw;
+  }
+  .navbar-brand .silver {
+    font-size: 6vw;
+  }
+}
