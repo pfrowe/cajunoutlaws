@@ -241,21 +241,29 @@ __HTML;
               <h2>Starters</h2>
               <dl>
                 <dt>Boudin Link</dt>
-                <dd>(1) Creole sausage made of pork, dirty rice, and enhanced with fresh chopped parsley and thinly sliced green scallions. 3.49</dd>
+                <dd>
+                  (1) Creole sausage made of pork, dirty rice, and enhanced with fresh chopped parsley and thinly sliced
+                  green scallions. 3.49
+                </dd>
                 <dt>Boudin Balls</dt>
-                <dd>Creole dirty rice rolled and battered in our homemade Cajun seasoning, then fried to a golden crisp. (3) 2.95</dd>
-                <dt>Cajun Eggroles</dt>
-                <dd>Jumbalaya rice chicken, shrimp, sausage</dd>
+                <dd>
+                  Creole dirty rice rolled and battered in our homemade Cajun seasoning, then fried to a golden crisp.
+                  (3) 2.95
+                </dd>
                 <dt>Fried Pickles</dt>
-                <dd>Now these are worth bragging about! Our select dill pickle slices battered and seasoned to perfection will have you coming back for more! 4.45</dd>
+                <dd>
+                  Now these are worth bragging about! Our select dill pickle slices battered and seasoned to perfection
+                  will have you coming back for more! 4.45
+                </dd>
                 <dt>Beer Battered Onion Rings</dt>
                 <dd>No introduction needed for these bad boys! 3.99</dd>
                 <dt>Shrimp Ceviche</dt>
-                <dd>Shrimp marinated in lemon-lime juice and pico de gallo garnished with avocado and cilantro, served with crackers. 6.99</dd>
+                <dd>
+                  Shrimp marinated in lemon-lime juice and pico de gallo garnished with avocado and cilantro, served
+                  with crackers. 6.99
+                </dd>
                 <dt>Shrimp Cocktail</dt>
                 <dd>3.99</dd>
-                <dt>Spinach &amp; Artichoke Dip</dt>
-                <dd>Served with toasted baguettes. 6.99</dd>
               </dl>
             </div> <!-- END well -->
             <div class="well">
@@ -265,6 +273,12 @@ __HTML;
                 <dd>
                   Boneless checken breast seasoned and grilled placed atop a bed of lettuce, spinach, baby
                   carrots, cherry tomatoes, red onion, broccoli, and topped with croutons. 8.95
+                </dd>
+                <dt>Blackened Salmon Salad</dt>
+                <dd>
+                  Blackened Wild Alaskan salmon seasoned and grilled placed atop a bed of lettuce, spinach, baby
+                  carrots, cherry tomatoes, red onion, broccoli, and topped with croutons and your choice of ranch, bleu
+                  cheese, Italian, or balsamic vinaigrette dressing. 9.95
                 </dd>
               </dl>
             </div> <!-- END .well -->
@@ -292,7 +306,21 @@ __HTML;
               <dl>
                 <dt>Build Ur Burger</dt>
                 <dd>
-                  Hand-crafted patty served with lettuce, tomatoes, pickles, onions, mayo &amp; mustard. 6.99
+                  <p>
+                    Hand-crafted patty served with lettuce, tomatoes, pickles, onions, mayo &amp; mustard. Build up your
+                    burger with our builders listed below to fit any outlaw! 6.99
+                  </p>
+                  <p>
+                    <strong>Builders:</strong>
+                    <ul>
+                      <li>Cheese 0.75</li>
+                      <li>Bacon 0.99</li>
+                      <li>Avocado 0.99</li>
+                      <li>Grilled Jalape&ntilde;os 0.50</li>
+                      <li>Fried egg 0.99</li>
+                      <li>Grilled onions n/c</li>
+                    </ul>
+                  </p>
                 </dd>
                 <dt>Boudreaux Burger</dt>
                 <dd>
@@ -301,11 +329,13 @@ __HTML;
                 </dd>
                 <dt>Mellow Zing Burger</dt>
                 <dd>
-                  Hand-crafted patty topped with our special "donkey sauce", lettuce, tomatoes, grilled red onions, Swiss cheese, bacon &amp; avocado. 8.99
+                  Hand-crafted patty topped with our special &ldquo;donkey sauce&rdquo;, lettuce, tomatoes, grilled red
+                  onions, Swiss cheese, bacon &amp; avocado. 8.99
                 </dd>
                 <dt>Cowboy Burger</dt>
                 <dd>
-                  Hand-crafted patty with bacon, fried egg, American cheese, grilled red onions, grilled jalape&ntilde;os, lettuce &amp; tomatoes. 9.95
+                  Hand-crafted patty with bacon, fried egg, American cheese, grilled red onions, grilled
+                  jalape&ntilde;os, lettuce &amp; tomatoes. 9.95
                 </dd>
                 <dt>Fat Boy BBQ Burger</dt>
                 <dd>
@@ -328,9 +358,13 @@ __HTML;
                 <dd>Garlic Mashed Potatoes 1.99</dd>
                 <dd>Saut&eacute;ed Asparagus 1.99</dd>
                 <dd>Celery &amp; Carrots 0.50</dd>
-                <dd>Bottled Soda 1.95</dd>
-                <dd>Fountain Drinks &amp; Tea 1.95</dd>
+                <dd>Corn &amp; Potato (seasonal) 0.75</dd>
               </dl>
+            </div> <!-- END .well -->
+            <div class="well">
+              <h2>Spicy Boiled Crawfish</h2>
+              <p>Min. 2 pounds - Served with corn &amp; potato.</p>
+              <p>SEASONAL &ndash; Market Price</p>
             </div> <!-- END .well -->
           </div><!-- END .col-xs-12 .col-sm-12 .col-md-6 .col-lg-6 -->
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -345,7 +379,7 @@ __HTML;
                 </dd>
                 <dt>Grilled Chicken Sandwich</dt>
                 <dd>
-                  Boneless chicken breast seasoned &amp; grilled to perfection garnished with lettuce, tomatoes
+                  Boneless chicken breast seasoned and grilled to perfection garnished with lettuce, tomatoes
                   and onions. 8.95
                 </dd>
                 <dt>Classic Bacon, Lettuce, Tomato</dt>
@@ -399,7 +433,10 @@ __HTML;
                 <dt>Fried Shrimp</dt>
                 <dd>(8) large Gulf shrimp lightly battered with lemon pepper. 11.95</dd>
                 <dt>Fried Catfish</dt>
-                <dd>Two fillets Mississippi catfish with a light lemon pepper seasoning. 9.95</dd>
+                <dd>
+                  One fillet Mississippi catfish with a light lemon pepper seasoning. Served with three Boudin Balls.
+                  9.95
+                </dd>
                 <dt>Fried Catfish &amp; Shrimp</dt>
                 <dd>
                   Can't decide? Try the best of both worlds! Comes with one fillet and three shrimp. 10.49
@@ -411,10 +448,11 @@ __HTML;
               <dl>
                 <dt>Boiled Jumbo Gulf Shrimp</dt>
                 <dd>
-                  Wild-caught shrimp straight from the Gulf tossed in our spicy Louisiana Boil. (6) 8.99 or 17.99 per lb.
+                  Wild-caught shrimp straight from the Gulf tossed in our spicy Louisiana Boil. (6) 8.99 or 17.99 per
+                  lb.
                 </dd>
                 <dt>Blackened Catfish</dt>
-                <dd>Served with dirty rice. 9.95</dd>
+                <dd>Served with dirty rice. 12.99</dd>
                 <dt>Grilled Tilapia</dt>
                 <dd>Served with dirty rice. 8.95</dd>
                 <dt>Blackened Salmon</dt>
@@ -442,7 +480,31 @@ __HTML;
                 <dd>Chicken Nuggets 3.99</dd>
               </dl>
             </div> <!-- END .well -->
+            <div class="well">
+              <h2>Drinks</h2>
+              <p>Free refills.</p>
+              <dl>
+                <dd>Soda 1.95</dd>
+                <dd>Tea 1.95</dd>
+              </dl>
+            </div> <!-- END .well -->
           </div> <!-- END .col-xs-12 .col-sm-12 .col-md-6 .col-lg-6 -->
+        </div> <!-- END .row -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="well">
+              <p class="small text-muted">
+                FOOD ALLERGY DISCLAIMER:<br />
+                Consuming raw or under-cooked meats, poultry, seafood, shellfish or eggs may increase our risk of
+                food-borne illness, especially if you have certain medical conditions.<br />
+                &ndash; Sec. 11051.2003 DC
+              </p>
+              <p class="small text-muted">
+                Please be advised that food prepared here may contain these ingredients: milk, egg, wheat, soybean,
+                peanuts, tree nuts, fish, and shellfish.
+              </p>
+            </div> <!-- END .well -->
+          </div> <!-- END .col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 -->
         </div> <!-- END .row -->
       </div> <!-- END #content-menu -->
       <div class="container-fluid tab-pane" id="content-contact">
